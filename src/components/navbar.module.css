@@ -43,6 +43,10 @@ body{
     align-items: center;
     gap: 20px;
 }
+.deco{
+    text-decoration: none;
+    color: black;
+}
 .menu a:hover{
     color: #B33951;
     font-size: 17px;

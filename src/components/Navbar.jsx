@@ -18,11 +18,19 @@ function Navbar() {
         </div>
         <div className={nv.menuItem}>
         <input type='text' placeholder='Search' className={nv.search}/>
-        <Search  className={nv.item}/>
-        <User className={nv.item}/>
+        <a href='#' className={nv.deco}>
+        <Search  className={nv.item}/> 
+        </a>
+        <a href='#' className={nv.deco}>
+        <User className={nv.item}/> 
+        </a>
+        <a href='#' className={nv.deco}>
         <ShoppingCart className={nv.item}/>
+        </a>
+        
+        
         </div>
-        <a href='#' onClick={()=>setnavM(!navM)} >
+        <a href='#' onClick={()=>setnavM(!navM)}  className={nv.deco}>
         <Menu  className={nv.menuMobile}/>
         </a>
         
