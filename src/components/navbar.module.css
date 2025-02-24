@@ -18,7 +18,7 @@ body{
 
 }
 .logo{
-    background-image: url('C:\Users\varun\Desktop\Shoes E-commerce\src\assets\logo1.png');
+    background-image: url('../assets/logo.png');
     background-size: cover;
     height: 40px ;
     width: 120px;
