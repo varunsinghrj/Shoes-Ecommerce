@@ -76,10 +76,7 @@ body{
         align-items: center;
         padding: opx 4px;
     }
-    .logo{
-       
-        width: 100px;
-    }
+    
     .menu{
         display: none;
     }
